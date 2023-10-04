@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #342623;
+    padding: 10px 0 0;
+    text-align: center;
+    color: white;
+}
+
+header img {
+    border-radius: 100%;
+}
+
+header h2 {
+    padding: 5px;
+    margin: 10px 0;
+}
+
+nav ul {
+    background-color: #827E7E;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+ }
+
+ nav ul li {
+    margin: 0 25px;
+    flex: 1;
+    text-align: center;
+ }
+
+ nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+ }
+
+ #sobre-fundo{
+    background-color: #14141421;
+    padding: 10px;
+    
+ }
+
+ .sobre {
+    padding: 40px 0;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+ }
+
+.sobre h3 {
+    padding: 0px 10px;
+    text-align: center;
+ }
+
+.sobre p {
+    padding: 0 30px;
+    text-align: justify;
+ }
+
+ .borda {
+    border: solid 1px #827e7e52;
+    margin: 150px 0;
+    padding: 10px 0;
+    text-align: center; /* Para centralizar o conteúdo horizontalmente */
+}
+
+.borda h3 {
+    margin: 40px 10px 0;
+}
+
+.imagem-com-texto {
+    display: inline-block;
+    margin: 30px; /* Adicione margens para espaçamento entre as imagens */
+}
+
+.imagem-com-texto img {
+    max-width: 100%;
+}
+
+.imagem-com-texto p {
+    text-align: center;
+    font-size: 12px;
+}
+
+#fundo-contato {
+    background-color: #14141421;
+    padding: 10px;
+    margin: 30px 0;
+    margin-bottom: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contato {
+    background-color: white;
+    padding: 30px 0;
+    text-align: center; /* Para centralizar o texto abaixo da imagem */
+    border-radius: 5px;
+}
+
+.contato h3 {
+    margin: 20px 0px 0px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.contato img {
+    width: 50px;
+    padding: 10px 0 10px;
+    margin: 10px; /* Adicione margens para espaçamento entre as imagens */
+    height: auto; /* Para garantir que as imagens mantenham a proporção */
+}
+
+footer {
+    background-color: #342623;
+    padding: 20px 0;
+    margin-bottom: 20px 0 20px;
+    text-align: center;
+    color: white;
+}
